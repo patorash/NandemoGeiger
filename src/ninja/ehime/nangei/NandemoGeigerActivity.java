@@ -20,8 +20,27 @@ public class NandemoGeigerActivity extends TabActivity {
         Intent intent = new Intent(this, Setting.class);
         
         spec = tabHost.newTabSpec("tab1")
-            .setIndicator(getString(R.string.hello), res.getDrawable(R.drawable.icon))
-            .setContent(intent);
+                .setIndicator(getString(R.string.measurement),
+                        res.getDrawable(android.R.drawable.ic_menu_info_details))
+                .setContent(intent);
+        tabHost.addTab(spec);
+        
+        spec = tabHost.newTabSpec("tab2")
+                .setIndicator(getString(R.string.preferences),
+                        res.getDrawable(android.R.drawable.ic_menu_preferences))
+                .setContent(intent);
+        tabHost.addTab(spec);
+            
+        spec = tabHost.newTabSpec("tab3")
+                .setIndicator(getString(R.string.analysis),
+                        res.getDrawable(android.R.drawable.ic_menu_info_details))
+                .setContent(intent);
+        tabHost.addTab(spec);
+        
+        spec = tabHost.newTabSpec("tab4")
+                .setIndicator(getString(R.string.help),
+                        res.getDrawable(android.R.drawable.ic_menu_help))
+                .setContent(intent);
         tabHost.addTab(spec);
     }
 }

@@ -11,6 +11,7 @@
         android:layout_height="fill_parent"
         >
         <FrameLayout
+            android:layout_above="@android:id/tabs"
             android:id="@android:id/tabcontent"
             android:layout_width="fill_parent"
             android:layout_height="fill_parent"

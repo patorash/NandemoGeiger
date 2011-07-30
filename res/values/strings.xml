@@ -2,4 +2,8 @@
 <resources>
     <string name="hello">Hello World, NandemoGeigerActivity!</string>
     <string name="app_name">NandemoGeiger</string>
+    <string name="preferences">設定</string>
+    <string name="help">ヘルプ</string>
+    <string name="measurement">測定</string>
+    <string name="analysis">分析</string>
 </resources>
