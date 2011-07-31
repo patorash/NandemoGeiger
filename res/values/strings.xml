@@ -6,4 +6,9 @@
     <string name="help">ヘルプ</string>
     <string name="measurement">測定</string>
     <string name="analysis">分析</string>
+    <string name="reset">リセット</string>
+    <string name="start">スタート</string>
+    <string name="stop">ストップ</string>
+    <string name="avg_cpm">avg cpm</string>
+    <string name="cml_cnt">cml cnt</string>
 </resources>

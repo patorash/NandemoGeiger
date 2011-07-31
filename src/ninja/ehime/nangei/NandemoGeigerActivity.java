@@ -17,7 +17,7 @@ public class NandemoGeigerActivity extends TabActivity {
         TabHost tabHost = getTabHost();
         TabHost.TabSpec spec;
         
-        Intent intent = new Intent(this, Setting.class);
+        Intent intent = new Intent(this, Measurement.class);
         
         spec = tabHost.newTabSpec("tab1")
                 .setIndicator(getString(R.string.measurement),
@@ -25,6 +25,7 @@ public class NandemoGeigerActivity extends TabActivity {
                 .setContent(intent);
         tabHost.addTab(spec);
         
+        intent = new Intent(this, Setting.class);
         spec = tabHost.newTabSpec("tab2")
                 .setIndicator(getString(R.string.preferences),
                         res.getDrawable(android.R.drawable.ic_menu_preferences))
