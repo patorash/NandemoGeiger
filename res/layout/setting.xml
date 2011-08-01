@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+	android:padding="10dip"
+    >
+<TextView android:text="閾値(0～100%)"
+		 android:id="@+id/item1Title"
+		 android:textSize="24.0sp"
+	android:padding="5dip"
+		 android:layout_width="wrap_content" 
+		 android:layout_height="wrap_content" />
+<LinearLayout
+    android:orientation="horizontal"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+	android:padding="5dip"
+    >
+	<SeekBar android:layout_height="wrap_content" 
+		android:id="@+id/item1SeekBar" 
+	android:layout_width="0dip"
+	android:layout_weight="1"
+	android:progress="0"
+	android:max="100"
+	 />
+	<TextView android:text="30"
+		 android:id="@+id/item1value" 
+		 android:textSize="18.0sp"
+	android:padding="5dip"
+		 android:layout_width="wrap_content" 
+		 android:layout_height="wrap_content" />
+</LinearLayout>
+<TextView android:text="移動平均(1～10分)" 
+	android:id="@+id/item2Title" 
+		 android:textSize="24.0sp"
+	android:padding="5dip"
+	android:layout_width="wrap_content" 
+	android:layout_height="wrap_content" />
+<LinearLayout
+    android:orientation="horizontal"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="5dip"
+    >
+<SeekBar android:layout_height="wrap_content" 
+	android:id="@+id/item2SeekBar" 
+	android:layout_width="0dip"
+	android:layout_weight="1" 
+	android:progress="1"
+	android:max="10"
+	/>
+<TextView android:text="5" 
+	android:id="@+id/item2Value" 
+		 android:textSize="18.0sp"
+	android:padding="5dip"
+	android:layout_width="wrap_content" 
+	android:layout_height="wrap_content" />
+</LinearLayout>
+<TextView android:text="換算レート" 
+	android:id="@+id/item3Title" 
+		 android:textSize="24.0sp"
+	android:padding="5dip"
+	android:layout_width="wrap_content" 
+	android:layout_height="wrap_content" />
+<LinearLayout
+    android:orientation="horizontal"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="5dip"
+    >
+<SeekBar android:layout_height="wrap_content" 
+	android:id="@+id/item3SeekBar" 
+	android:layout_width="0dip"
+	android:layout_weight="1"
+		android:progress="0"
+		android:max="200"
+	 />
+<TextView android:text="100" 
+	android:id="@+id/item3Value" 
+		 android:textSize="18.0sp"
+	android:padding="5dip"
+	android:layout_width="wrap_content" 
+	android:layout_height="wrap_content" />
+</LinearLayout>
+</LinearLayout>
