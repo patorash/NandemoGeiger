@@ -11,4 +11,13 @@
     <string name="stop">ストップ</string>
     <string name="avg_cpm">avg cpm</string>
     <string name="cml_cnt">cml cnt</string>
+    <string name="pref_seekbar1_key">seekbar1</string>
+    <string name="pref_seekbar2_key">seekbar2</string>
+    <string name="pref_seekbar3_key">seekbar3</string>
+    <string name="pref_seekbar1_title">閾値(0～100%)</string>
+    <string name="pref_seekbar2_title">移動平均(1～10分)</string>
+    <string name="pref_seekbar3_title">換算レート</string>
+    <string name="pref_average_key">average</string>
+    <string name="pref_average_finite">時間指定</string>
+    <string name="pref_average_infinite">測定時間すべて</string>
 </resources>
